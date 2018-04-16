@@ -1,5 +1,4 @@
 /*
-
     Template Name   : Volcano
     Template Author : http://pixelhint.com
     Author Email    : contact@pixelhint.com
@@ -7,7 +6,6 @@
     
     
     *****************************************
-    
     
     - Fonts
     - Reset Default Foundation Styling
@@ -21,16 +19,7 @@
     - Google Map
     - Footer
     - Responsive CSS
-    
 */
-
-
-
-
-
-
-
-
 
 
 /*		Fonts		*/
@@ -132,10 +121,6 @@
 }
 
 
-
-
-
-
 /*    Reset Default Foundation Styling    */
 
 .row{
@@ -192,11 +177,6 @@
 
 
 
-
-
-
-
-
 /*    Hero    */
 
 .hero{
@@ -221,6 +201,7 @@
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 70px;
+	letter-spacing: 2px;
 }
 
 .hero .caption #sub_cap{
@@ -347,10 +328,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 .histoire .mean_title{
-	font-size: 30px;
+	color: #454545;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center
 }
 
 .histoire .sub_title{
@@ -377,11 +361,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .histoire .title{
 	color: #454545;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 20px
+	margin-bottom: 10px;
+	text-align: center
 }
+
 
 .btn_holder{
 	text-align: center;
@@ -390,11 +376,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .histoire .btn_fancy{
 	margin-top: 20px;	
 }
-
-
-
-
-
 
 
 
@@ -475,10 +456,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 
-
-
-
-
 /**    quote    **/
 
 .quote{
@@ -507,11 +484,14 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 .quote .mean_title{
-	font-size: 30px;
+	color: #454545;
+	font-size: 26px;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
+
 
 .quote .sub_title{
 	font-size: 22px;
@@ -600,6 +580,16 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	width: 100%;
 	background: #ffffff;
 	padding: 140px 0;
+}
+
+.testimonials .title{	color: #454545;
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center
+
 }
 
 .testimonials .tesimonial{
@@ -760,62 +750,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 
-
-
-
-
-
-
-/*    Google Map    */
-.map{
-	width: 100%;
-	height: 550px;
-	position: relative;
-	overflow: hidden;
-}
-
-.map #map_container{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 20;
-}
-
-#map_container img{
-	max-width: none;
-}
-
-.map .shadow{
-	width: 100%;
-	height: 158px;
-	background: url('../img/shadow.png') repeat-x;
-	position: absolute;
-	bottom: -1px;
-	left: 0;
-	z-index: 90;
-}
-
-#map_container .map_contacts{
-	color:#454545;
-}
-
-#map_container .map_contacts span{
-	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-	font-weight:bold; 
-	text-transform:uppercase;
-}
-
-
-
-
-
-
-
-
-
-
 /*    Footer    */
 
 footer{
@@ -920,8 +854,6 @@ footer p{
 
 
 
-
-
 /*    Responsive CSS    */
 
 @media only screen and (max-width: 40em){
@@ -1000,3 +932,74 @@ footer p{
 		margin-top: -22px;
 	}	
 }
+
+
+
+
+/*    Map    */
+/*.map{
+	width: 100%;
+	height: 550px;
+	position: relative;
+	overflow: hidden;
+}
+.map #map_container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+#map_container img{
+	max-width: none;
+}
+
+.map .shadow{
+	width: 100%;
+	height: 158px;
+	background: url('../img/shadow.png') repeat-x;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	z-index: 90;
+}
+
+#map_container .map_contacts{
+	color:#454545;
+}
+
+#map_container .map_contacts span{
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-weight:bold; 
+	text-transform:uppercase;
+}*/
+
+
+/* Section destinée à la carte */
+
+#map
+{  text-align: left;
+	flex: 1 1 auto;   
+	/*height: 200px;*/
+	/*width: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+    width: 75%;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+
+.mapboxgl-popup-content {
+ /* text-align: center;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
