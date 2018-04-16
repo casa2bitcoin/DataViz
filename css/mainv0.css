@@ -298,9 +298,10 @@ header nav{
 }
 
 header .top-bar-section ul li a{
-	color: #ffffff;
+	color: #0f0e0e;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	font-weight: bold;
 	text-transform: uppercase;
 	margin-right: 30px;
 	letter-spacing: .5px;
@@ -485,7 +486,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	flex-direction: column;
 	width: 100%;
 	height: 750px;
-	background: url('../img/quote_bg.jpg') no-repeat 50% 50%;
+	background: url('../img/quote_bg.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -526,7 +527,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 .quote .images img
-{ width: 150px;
+{ width: 175px;
 	margin-right: 50px;
 	margin-left: 50px;
 	
@@ -583,8 +584,12 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
     }
 
 
-
-
+#myChart 
+{ 	margin-top: 40px;
+	opacity: 0.5;
+	display:flex;
+	
+}
 
 
 
