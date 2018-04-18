@@ -462,8 +462,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 750px;
-	background: url('../img/quote_bg.jpg') no-repeat;
+	height: 900px;
+	background: url('../img/satoshi.jpg') no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -471,6 +471,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	text-align: center;
 	align-items: center;
 }
+
 
 
 
@@ -489,7 +490,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
 }
 
 
@@ -500,14 +500,33 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 
+
 .quote .images
 { display: flex;
   flex-direction: row;
 
 }
 
+.flotte1 
+{ float:left;	
+}
+
+.flotte1 img
+{ width: 200px;
+	
+}
+
+.flotte2
+{ float:right;	
+}
+
+.flotte2 img
+{ width: 200px;
+	
+}
+
 .quote .images img
-{ width: 175px;
+{ width: 150px;
 	margin-right: 50px;
 	margin-left: 50px;
 	
@@ -571,8 +590,32 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	
 }
 
+#reponse
 
+{ display: flex;
+ flex-direction: column;
+	
+}
 
+#motcle
+
+{ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+	
+}
+
+#imagesbrand
+
+{ display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#imagesbrand img
+{ width: 150px;
+	
+}
 
 /*    Testimonials    */
 
