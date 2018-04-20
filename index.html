@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
-    <title>Bitcoin: le braquage du siècle</title>
+    <!-- <title>Bitcoin: le braquage du siècle</title> -->
+    <title>Casa2bitcoin</title>
     <link rel="icon" type="image/png" href="img/bitcoin_logo.png" />
 
     
@@ -23,8 +24,29 @@
     <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/mainv1.css" />
+    <link rel="stylesheet" href="css/mainv2.css" />
     <link rel="stylesheet" href="css/csslider.css" />
+
+	<!--  Google analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-96057139-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+	  <!-- Fonts -->
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+	    rel="stylesheet" type="text/css">
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic"
+	    rel="stylesheet" type="text/css">
+	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	   <!--Pour que la page soit indexée dans les moteurs de recherche-->
+	  <meta name="robots" content="index, nofollow">
+	  <meta name="googlebot" content="index, nofollow">
 
 
   </head>
@@ -77,12 +99,12 @@
       <!--    Start Services Titles    -->
       <div class="row">        
         <h1 class="mean_title">Le Bitcoin dans l'histoire</h1>
-        <h2 class="sub_title">Un jour de janvier de l'année 2009, est sorti de terre ou plutôt d'un ordinateur, une monnaie mystérieuse. Son objectif: Effectuer un braquage silencieux du système. Contrairement au reste du monde, le Bitcoin est indépendant et rien ni personne ne peut prendre son contrôle. Vous allez découvrir sa place dans l'histoire et son incroyable épopée.</h2>
+        <h2 class="sub_title">Un jour de janvier de l'année 2009, est sorti de terre ou plutôt d'un ordinateur, une monnaie mystérieuse. Son objectif: effectuer un braquage silencieux du système. Contrairement au reste du monde, le Bitcoin est indépendant et rien ni personne ne peut prendre son contrôle. Nous vous proposons de découvrir dans un premier temps sa place dans l'histoire et pourquoi il est apparu.</h2>
 
       </div>
       <!--    End Services Titles    -->
 	  <div class="frise">
-		<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1y51xeK585Xwv17Pr8ePdE3BPno0xD-3pHKYa9GnksE0&font=Rufina-Sintony&lang=fr&initial_zoom=1&height=550' width='100%' height='550' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+		<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1y51xeK585Xwv17Pr8ePdE3BPno0xD-3pHKYa9GnksE0&font=Default&lang=en&initial_zoom=2&height=500' width='70%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 	  </div>
 	  
       <!--    Start Services List  
@@ -130,19 +152,25 @@
 
     <!--  Start Quote Section  -->
     <section class="quote" id="quote">
-		<div class="row"> 
          <h1 class="mean_title">Le Créateur: qui se cache derrière Satoshi Nakamoto?</h1>
+		
+		<div class="row1"> 
+			<div class="texterow">
+				Ils ont tous enquêté pour découvrir l'identité de Satoshi Nakamoto et identifier l'auteur du casse du siècle. En tapant "Who is Satoshi Nakamoto" sur Google, les 5 premiers articles citent un certain nombre de suspects. Mais certains semblent plus évoqués que d'autres. Et si on en croit les lois de probabilité, il y a de forte de chances pour qu'on ait à faire à un informaticien américain...
+			</div>
+			<div class='flotte1'>
+				<img src="img/forbes.png" alt="forbes" />
+				<img src="img/NYT.png" alt="New York Times" />
+				<img src='img/newsweek.png'/>
+				<img src='img/NSA.png'/>
+				<img src='img/wired.png'/>
+			</div>
+		 
+		 			
+			<div id="myChart">
+			</div>
 
-		 <div class='flotte1'>
-			<img src="img/forbes.png" alt="forbes" />
-		 </div>
-		 
-		  <div class='flotte2'>
-			<img src="img/NYT.png" alt="New York Times" />
-		 </div>
-		 
-         <h2 class="sub_title">Ils ont tous enquêté pour découvrir l'identité de Satoshi Nakamoto et identifier l'auteur du casse du siècle. Mais personne n'a réussi à le démasquer... </h2>
-        </div>
+		</div>
 
        <!--  <div class="images">
 
@@ -152,26 +180,26 @@
 			 
 		</div>  -->
 
-	<div class='photo-grid-container'>
+	<!--<div class='photo-grid-container'>
   	<div class='photo-grid'>
     <div class='photo-grid-item'>
-   		<img src='img/newsweek.png'/>
+   		
     </div>
     <div class='photo-grid-item'>
-    	<img src='img/NSA.png'/>
+    	
 	</div>
 	<div class='photo-grid-item'>
-  		<img src='img/wired.png'/>
+
 	</div>
 	</div>
-	</div>
+	</div>-->
 
 
 		<div class="btn_holder">
         <a href="#myChart" class="btn_fancy" onclick="AfficherMasquer()">
           <div class="solid_layer"></div>
           <div class="border_layer"></div>
-          <div class="text_layer">Qu'ont-ils trouvé? <br> </div>
+          <div class="text_layer">Mais la réponse se trouve dans les lettres...<br> </div>
         </a>
         </div>
 
@@ -194,17 +222,14 @@
 								
 								function AfficherMasquer()
 								{
-								divInfo = document.getElementById('myChart');
+	
 								divInfo1= document.getElementById('reponse');
 								divInfo2= document.getElementById('imagesbrand');
 								divInfo3= document.getElementsByClassName('quote');
 
 								timeoutID = window.setTimeout(changeBackground, 10000);
 								
-								if (divInfo.style.display == 'none')
-								divInfo.style.display = 'flex';
-								else
-								divInfo.style.display = 'none';
+							
 								
 								if (divInfo1.style.display == 'none')
 								divInfo1.style.display = 'flex';
@@ -219,17 +244,13 @@
 								}
 								
 			</script>
-			
-		<div id="myChart" style="display:none">
-		</div>
+
 		<div id="reponse" style="display:none">
-			<h2 class="sub_title">Mais la réalité est toute autre...</h2>
-			<div id="motcle">
-				<div id="mot1">Sa</div>
-				<div id="mot2">toshi</div> 
-				<div id="mot3">Naka</div>
-				<div id="mot4">moto</div>
-			</div>
+			<h2 class="sub_title"><span id="let1">Sa</span><span id="let2">toshi</span> <span id="let3">Naka</span><span id="let4">moto<span></h2>
+			<div id="imagesfleche1"><img src="../img/fleche-1.png" alt="fleche"/></div>
+			<div id="imagesfleche2"><img src="../img/fleche.svg" alt="fleche"/></div>
+			<div id="imagesfleche3"><img src="../img/fleche.svg" alt="fleche"/></div>
+			<div id="imagesfleche4"><img src="../img/fleche.svg" alt="fleche"/></div>			
 		</div>
 			
 	<!--	<div id="imagesbrand" style="display:none">
@@ -240,24 +261,7 @@
 		</div> -->
 
 
-	<div id="imagesbrand" style="display:none">
-	<div class='photo-grid-container'>
-  	<div class='photo-grid'>
-    	<div class='photo-grid-item'>
-      		<img src="img/samsungb.png" />
-    	</div>
-    	<div class='photo-grid-item'>
-      		<img src="img/toshibab.png"/>
-    	</div>
-    	<div class='photo-grid-item'>
-      		<img src="img/nakamichib.png"/>
-		</div>
-	    <div class='photo-grid-item'>
-  			<img src="img/motorolab.png"/>
-	    </div>
-	</div>
-	</div>
-	</div> 
+	
 
 
 		
@@ -291,24 +295,23 @@
 		  </div>
 		  <div class="draggarea">
 			<div class="draggareapossible"></div>
-			<div class="dragged1">Mathieu, trader aguéri</br> 1000000$/an</div>
+			<div class="dragged1">Mathieu </br>trader aguéri, 1000000$/an</div>
 			<div class="draggareapossible"></div>
-			<div class="dragged4">Jennifer Lawrence, $24000000 en 2017</div>
+			<div class="dragged4">Jennifer Lawrence</br> $24000000 en 2017</div>
 			<div class="draggareapossible"></div>
-			<div class="dragged2">Paul Pogba, footballeur de l'équipe de France </br>$27000000 en 2017</div>
+			<div class="dragged2">Paul Pogba</br>footballeur de l'équipe de France, $27000000 en 2017</div>
 			<div class="draggareapossible"></div>
-			<div class="dragged3">Beyoncé, 105000000$ en 2017</div>
+			<div class="dragged3">Beyoncé</br> 105000000$ en 2017</div>
 			<div class="draggareapossible"></div>
-			<div class="dragged5">Bill Gates, fortune estimée à 90000000000$ en 2018</div>
+			<div class="dragged5">Bill Gates</br> fortune estimée à 90000000000$ en 2018</div>
 			<div class="draggareapossible"></div>
 			<div class="reponsespossibles">
 					<div id="rep1" style="display:none">FAUX, tous ces efforts pour un salaire de Data-Scientist?</div>
 					<div id="rep2" style="display:none">FAUX, les traders? des petits joueurs...</div>
-				    <div id="rep3" style="display:none">FAUX, ahahahahaha</div>
+					<div id="rep3" style="display:none">FAUX, je préfère me cacher derrière un masque</div>
 					<div id="rep4" style="display:none">FAUX, hum je n'avais pas confiance en mes talents</div>
-					<div id="rep5" style="display:none">FAUX, je préfère me cacher derrière un masque</div>
-					<div id="rep6" style="display:none">BIEN JOUE, et oui 20 Milliards de dollars</div>
-					<div id="rep7" style="display:none">FAUX, encore un petit effort...</div></div>
+					<div id="rep5" style="display:none">BIEN JOUE, et oui 20 Milliards de dollars</div>
+					<div id="rep6" style="display:none">FAUX, n'exagérons rien tout de même</div></div>
 
 			
 		  </div>
@@ -363,9 +366,8 @@
 							draggedElement.parentNode.removeChild(draggedElement); 
 							
 							coordx = clonedElement.getBoundingClientRect();
-							if (coordx.left <= 300 && coordx.top >= 100){
-							document.getElementById('rep1').style.display='flex';
-							document.getElementById('rep2').style.display='none';
+							if (coordx.left <= 300 && coordx.top < 400){
+							document.getElementById('rep2').style.display='flex';
 							document.getElementById('rep3').style.display='none';
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='none';
@@ -374,15 +376,22 @@
 
 							
 							}
-							else if (coordx.left > 300 &&  coordx.left <=800 && coordx.top >= 100){
-							document.getElementById('rep1').style.display='none';
-							document.getElementById('rep2').style.display='flex';
-							document.getElementById('rep3').style.display='none';
+							else if (coordx.left > 300 &&  coordx.left <=800 && coordx.top <= 200){
+							document.getElementById('rep2').style.display='none';
+							document.getElementById('rep3').style.display='flex';
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='none';
 							document.getElementById('rep6').style.display='none';
 							document.getElementById('rep7').style.display='none';
 							
+							}
+							else if (coordx.left > 800 &&  coordx.left <=1200 && coordx.top <= 200){
+							document.getElementById('rep2').style.display='none';
+							document.getElementById('rep3').style.display='none';
+							document.getElementById('rep4').style.display='flex';
+							document.getElementById('rep5').style.display='none';
+							document.getElementById('rep6').style.display='none';
+							document.getElementById('rep7').style.display='none';
 							
 							
 							}
@@ -436,7 +445,8 @@
         <!--    Start CTA Titles    -->
         <h1 class="title">La cavale</h1>
         <!-- <h2 class="sub_title"> Paris.. ville aux mille visages…  capitale de la culture, de la  gastronomie, de la mode. Capitale plurielle, elle regroupe aussi de plus en plus de lieux dédiés aux cryptomonnais et en particulier, au <a>Bitcoin</a>.</h2>  -->
-        <div class="text_para"> De plus en plus de commerces acceptent le bitcoin à Paris.</div>
+        <div class="text_para"> Paris... Ville aux mille visages, capitale de la culture, de la gastronomie, de la mode... <br> </div>
+        <div class="text_para2"> <br> Capitale plurielle, Paris regroupe aussi de plus en plus de lieux dédiés aux crypto-monnaies et, en particulier, au <a>Bitcoin</a>. On compte aujourd'hui une quarantaine de commerces acceptant le bitcoin, la grande majorité se trouve au passage du Grand-Cerf.</div>
         </div>
 
         <div id='map'></div>	
@@ -451,8 +461,7 @@
       <div class="row">
         <h1 class="title">L'enquête</h1>
       </div>
-
-      <div id="slider1" class="csslider infinity inside">
+<div id="slider1" class="csslider infinity inside">
         <input type="radio" name="slides" id="slides_1" checked />
         <input type="radio" name="slides" id="slides_2" />
         <input type="radio" name="slides" id="slides_3" />
@@ -460,9 +469,11 @@
         <input type="radio" name="slides" id="slides_5" />
         <input type="radio" name="slides" id="slides_6" />
         <input type="radio" name="slides" id="slides_7" />
-
+        <input type="radio" name="slides" id="slides_8" />
+        <input type="radio" name="slides" id="slides_9" />
         <ul>
             <li>
+
               <div class = "titre_fact">Get Rich Or Die Tryin'</div>
               <img class="wrapdroite" src="img/fifty.jpg">
               <div class = "text_funny"> Le rappeur 50 Cent vient de découvrir par hasard qu’il était millionnaire en bitcoin. <br> </div>
@@ -486,7 +497,7 @@
             <li>
                 <div class = "titre_fact">Une clé sous haute tension</div>
                 <img class="wrapdroite" src="img/cle2.jpg">
-                <div class = "text_funny"> Perdre sa clé privée, c'est perdre ses bitcoins<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv"></span>1</a></sup>. C'est l'histoire du malchanceux James Howell qui a perdu 7500 bitcoins en jetant son disque dur. Cela vaut aujourd’hui 88 millions de dollars, soit 74 millions d’euros. <br> <br>  </div>
+                <div class = "text_funny2"> Perdre sa clé privée, c'est perdre ses bitcoins<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv"></span>1</a></sup>. C'est l'histoire du malchanceux James Howell qui a perdu 7500 bitcoins en jetant son disque dur. Cela vaut aujourd’hui 88 millions de dollars, soit 74 millions d’euros. <br> <br>  </div>
                 <aside class="wb-fnote" role="note">
                 <dd id="fn1">
                 <div class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">  <br>    1. Une clé privée est une chaine aléatoire de 51 caractères. Elle permet de débloquer des fonds ou d'effectuer une transaction en bitcoin.</span></a>  </div>
@@ -494,32 +505,49 @@
                 </aside>
             </li>
 
-
             <li>
               <div class = "titre_fact">Irréversible</div>
               <img class="wrapdroite" src="img/bitcoin-ballon.jpg">
-              <div class = "text_funny"> Les remboursements sont impossibles sur les transactions en bitcoins. En 2016, un utilisateur a accidentellement envoyé 137 000$ au lieu de 5$. </div>
+              <div class = "text_funny2"> Les remboursements sont impossibles sur les transactions en bitcoins. En 2016, un utilisateur a accidentellement envoyé 137 000$ au lieu de 5$. </div>
             </li>
 
             <li>
               <div class = "titre_fact"> Un butin exclusif </div>
-              <div class = "text_funny">1% des possesseurs de bitcoins possèdent 99% des actifs bitcoins en circulation.</div>   
+              <div class = "text_funny3">1% des possesseurs de bitcoins possèdent 99% des actifs bitcoins en circulation.</div>   
               <img class="wrapcenter" src="img/inegalite.jpg">
+            </li>
+
+            <li>
+              <div class = "titre_fact">Non mais allô quoi !</div>
+              <img class="wrapdroite" src="img/nab2.jpg">
+              <div class = "text_funny3"> N'en déplaise à Nabilla, on ne peut pas investir dans le bitcoin «les yeux fermés».<br> <br> </div>
+              <blockquote class="twitter-tweet" data-lang="en">
+              	<p lang="en" dir="ltr">Les chéris je sais pas si vous avez déjà entendu parler du bitcoin, cette sorte de nouvelle monnaie virtuelle [...] C'est vraiment sûr, c'est vraiment cool, si ça vous intéresse, vraiment vous pouvez y aller les yeux fermés !</p>&mdash; Nabilla <a href="https://twitter.com/jack/status/20">4 Janvier, 2018</a>
+              </blockquote>
+              <blockquote class="twitter-tweet" data-lang="en">
+              	<p lang="en" dir="ltr">#Nabilla Le #Bitcoin c'est très risqué ! On peut perdre toute sa mise. Pas de placement miracle. Restez à l'écart</p>&mdash; AMF <a href="https://twitter.com/jack/status/20">9 Janvier, 2018</a>
+              </blockquote>
             </li>
 
             <li>
               <div class = "titre_fact">La face cachée du bitcoin</div>
               <img class="wrapdroite" src="img/evil.jpg" />
-              <div class = "text_funny"> Avec son caractère anonyme et numérique, le bitcoin est le moyen de paiement privilégié sur le dark net. On estime aujourd'hui que près de la moitié des transactions en bitcoins seraient consacrées à alimenter le marché noir (drogues, armes, virus informatiques, etc.).  </div>     
-            </li>            
+              <div class = "text_funny4"> Avec son caractère anonyme et numérique, le bitcoin est le moyen de paiement privilégié sur le dark net. On estime aujourd'hui que près de la moitié des transactions en bitcoins seraient consacrées à alimenter le marché noir (drogues, armes, virus informatiques, etc.).  </div>     
+            </li>  
 
             <li>
               <div class = "titre_fact"> La mort du bitcoin ? </div>
               <img class="wrapdroite" src="img/jeu.jpg">
-              <div class = "text_funny"> 
+              <div class = "text_funny4"> 
               Le bitcoin, en chute libre depuis le début de l'année, a perdu 60% de sa valeur. Est-ce la fin du bitcoin ? Difficile de répondre, le bitcoin ayant connu par le passé de fortes baisses de valeur avant de repartir de plus belle.
               </div>
             </li>
+
+             <li>
+              <div class = "titre_fact"> Des zones d'ombre </div>
+              <img class="wrapdroite" src="img/end_bitcoin.jpg" />
+              <div class = "text_funny2"> En janvier 2018, 16,8 millions de bitcoins sont en circulation – soit 80 % des 21 millions qui seront créés, une limite fixée dès l’origine. Selon <it>Alternatives économiques</it>, en 2017, 37 % des bitcoins en circulation ont changé de mains, 22 % étaient détenus par des investisseurs et pour les 40 % restants, on ne sait pas... </div>     
+            </li>       
           <!-- <li class="scrollable"> --> 
         </ul>
 
@@ -531,7 +559,8 @@
             <label for="slides_5"></label>
             <label for="slides_6"></label>
             <label for="slides_7"></label>
-
+            <label for="slides_8"></label>
+            <label for="slides_9"></label>
         </div>
 
         <div class="navigation">
@@ -543,13 +572,12 @@
                 <label for="slides_5"></label>
                 <label for="slides_6"></label>
                 <label for="slides_7"></label>
-
+                <label for="slides_8"></label>
+                <label for="slides_9"></label>
             </div>
         </div>
     </div>
     </section>
-
-
 
     <!--  End Funny facts Section  -->
 
@@ -566,30 +594,63 @@
 
 
 
+
     <!--  Start Footer Section  -->
-			<!--  Ce site a été réalisé par  tyutfy élèves en dernière année de l'ENSAE Paristech, dans le cadre d'un projet de DataViz. Pour nous écrire:??? -->
-    <footer>
-      <div class="row">
-
-        <div class="small-12 medium-8 large-8 columns">
-          <div class="contact_details right">
-            <nav class="social">
-              <ul class="no-bullet">
-                <li><a href="http://facebook.com/pixelhint" target="_blank">Facebook</a></li>
-                <li><a href="http://instagram.com/pixelhint" target="_blank">Instagram</a></li>
-                <li><a href="http://twitter.com/pixelhint" target="_blank">Twitter</a></li>
-                <li><a href="http://plus.google.com/+Pixelhint" target="_blank">Google+</a></li>
+		
+	<footer id="footer" width="2000px">
+      <CENTER>
+        <TABLE border=none WIDTH="50%">
+          <TR>
+            <TD width=10%> </TD>
+            <TD width=23%>
+              <a href="http://www.ensae.fr/" style="margin-left: 0.5%"><img src="img/ensae.png" width="220px" height="200px" alt="" style="margin-left: 0.5%" /></a>
+            
+		    </TD>
+	    	<TD width=2%> </TD>
+            <TD width=28%>
+              <h5> Qui sommes-nous ?</h5>
+              <p> Nous sommes quatre étudiants en dernière année à l'ENSAE ParisTech. Ce site a été réalisé dans le cadre de notre cours de Data Visualisation.
+              </p>    
+            </TD>
+            <TD width=2%>
+            </TD>
+            <TD width=35>
+              <h5>Nous contacter</h5>
+              <ul class="icons">
+                <a>Mail : </a>
+                <a href="mailto:Casa2bitcoin@gmail.com">Casa2bitcoin@gmail.com</a>
+                <br>
               </ul>
-            </nav>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
+              <ul class="icons">
+                <li><a href="https://www.linkedin.com/in/leabresson/" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="mailto:lea.bresson@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li>
+				<a> Léa Bresson </a>
+                <br>
+                <li><a href="https://www.linkedin.com/in/parvati-chauchaix-0bb777111/" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:parvati.chauchaix@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li>
+                <a> Parvati Chauchaix </a>
+				<br>  
+				<li><a href="https://www.linkedin.com/in/kolia-iakovlev-a41626a5/" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:kolia.iakovlev@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li>
+				<a> Kolia Iakovlev </a>
+                <br>
+                <li><a href="https://www.linkedin.com/in/elvire-roblin-093394aa/" class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="mailto:elvire.roblin@ensae.fr" class="icon rounded fa-envelope-o fa-fw"><span class="label">LinkedIn</span></a></li>
+                <a> Elvire Roblin </a>
+                <br>
+              </ul>
+            </TD>
+            <TD width=5%></TD>
+          </TR>
+        </TABLE>
+      </CENTER>
     </footer>
     <!--  End Footer Section  -->
 
+
+    <!-- Special footer -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
 
 
@@ -600,7 +661,6 @@
       <div class="text_layer"><img src="img/top_arrow.png" alt="Back to top" title="" class="top_arrow"></div>
     </a>
     <!--    End Back To Top    -->
-
 
 
     <!--    Javascript Files    -->
@@ -617,9 +677,7 @@
 	<script type="text/javascript" src="js/d3.wordcloud.js"></script>
 	<script type="text/javascript" src="js/mapbitcoin.js"></script>
 
-
   </body>
   
-
 
 </html>
