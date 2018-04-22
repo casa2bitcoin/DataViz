@@ -721,11 +721,12 @@
     </div>
 
  
-<form method="post" action="send_mail.php">
+<form action="http://formspree.io/lea.bresson13.com">
 
       <input class='input name' name='user_name' placeholder='Ton nom stp :)' type='text'>
-        <input type="text" name="fname" placeholder="Ton prénom"><br>
-
+	<input type="email" name="_replyto"><
+	
+	textarea   name="body"></textarea>
       <input class='input email' name='user_email' placeholder='Email' type='text'>
       <select class='input select' name='subject'>
         <option disabled=''>De quoi souhaites-tu discuter ?</option>
@@ -737,7 +738,7 @@
       <textarea class='input message' placeholder='Dis nous tout'></textarea>
       </label>
       <!-- <input class='input submit' type='submit' value='Envoyer'>  -->
-	<p><button>Submit the form</button></p>
+	<input class='input submit' type="submit" value="Send">
 
     </form>
   </div>
