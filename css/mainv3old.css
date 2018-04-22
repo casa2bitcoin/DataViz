@@ -282,7 +282,7 @@ header .top-bar-section ul li a{
 	color: white;
     font-family: "Arial Black", Gadget, sans-serif	
 ;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
     margin-right: 32px;
@@ -372,6 +372,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .btn_holder{
 	text-align: center;
+
+    margin-top: 5%;
 }
 
 .histoire .btn_fancy{
@@ -492,7 +494,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 .quote .mean_title{
-	color: black;
+	color: #454545;
 	font-size: 23px;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -502,7 +504,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .quote .row1 .texterow {
 	height: 350px;
 	width: 500px;
-	color: black;
+	color: #454545;
 	font-size: 15px;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
@@ -512,7 +514,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	align-items: center;
 }
 .quote .row1 .sub_title{
-	color: black;
+	color: #454545;
 	font-size: 22px;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
@@ -570,11 +572,12 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 #reponse .sub_title
-{ color: black;
+{ color: #454545;
   font-style: "raleway-bold",Helvetica, Arial, sans-serif;
-  font-size: 26px;
+  font-size: 23px;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 15px 0px;
 }
 
 	
@@ -612,8 +615,95 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 
-#imagesfleche1{
-float: inline-end;}
+#reponse .marques
+{ display :flex;
+  flex-direction: row;
+  font-family: "raleway-bold",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: uppercase;
+  width: 800px;
+  padding: 15px 0;
+  color: #454545;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+	
+}
+
+#reponse .conclusion
+{
+	width: 500px;
+	color: #454545;
+	font-size: 15px;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding: 15px 0;
+	margin: 0 auto;
+
+}
+
+#reponse .marques #brand1
+{
+ animation: aero 2s;
+ animation-fill-mode: forwards;
+ animation-delay: 3s;
+
+}
+
+#reponse .marques #brand2
+{
+ animation: aero 2s;
+ animation-fill-mode: forwards;
+ animation-delay: 5s;
+
+}
+#reponse .marques #brand3
+{
+ animation: aero 2s;
+ animation-fill-mode: forwards;
+ animation-delay: 7s;
+
+}
+
+
+#reponse .marques #brand4
+{
+ animation: aero 2s;
+ animation-fill-mode: forwards;
+ animation-delay: 9s;
+
+}
+
+
+#reponse .conclusion
+{
+ animation: aero 2s;
+ animation-fill-mode: forwards;
+ animation-delay: 10s;
+
+}
+
+
+.quote #imageup 
+{ width: 100%;
+  height: 200px;
+  align-items:center;
+  justify-content: space-between;
+	
+}
+
+.quote #imageup img
+{ 
+ opacity: 0;
+ height: 150px;
+ animation: anim2 3s;
+ animation-delay: 9s;
+}
 
 
 
@@ -622,13 +712,13 @@ float: inline-end;}
 /* casse */
 
 .casse {
-	padding: 50px 50px;
 	width: 100%;
-	height: 700px;
+	height: 750px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
     align-items:center;
+	padding: 30px 30px;
 	
 	
 	
@@ -637,14 +727,14 @@ float: inline-end;}
 .casse .mean_title,
 .casse .sub_title{
 	text-align: center;
-	color: black;
+	color: #454545;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
 }
 
 
 .casse .mean_title{
-	color: black;
-	font-size: 26px;
+	color: #454545;
+	font-size: 23px;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -652,9 +742,10 @@ float: inline-end;}
 
 
 .casse .sub_title{
-	font-size: 22px;
+	font-size: 15px;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
+	padding: 10px 0px;
 }
 
 
@@ -664,7 +755,7 @@ float: inline-end;}
 	background: url("../img/satoshi1.jpg");
 	background-size:cover;
     margin:0;
-	border: 5px solid black;
+	border: 2px solid #454545;
 	text-align: center;
 	margin-left: auto;
     margin-right: auto;
@@ -689,7 +780,6 @@ float: inline-end;}
 .dragged1{
 	height: 150px;
 	width: 150px;
-	border: 5px solid black;
 	text-align: center;
 	background: url("../img/trader1.jpg");
 	background-size:cover;
@@ -703,6 +793,7 @@ float: inline-end;}
     user-select: none;
 	margin-left: 50px;
 	margin-right: 50px;
+    padding: 40px 0px;
 	
 }
 
@@ -710,7 +801,6 @@ float: inline-end;}
 .dragged2{
 	height: 150px;
 	width: 150px;
-	border: 5px solid black;
 	text-align: center;
 	background: url("../img/footballeur1.jpg");
 	background-size:cover;
@@ -724,33 +814,35 @@ float: inline-end;}
     user-select: none;
 	margin-left: 50px;
 	margin-right: 50px;
+	padding: 30px 0px;
+
 	
 }
 
 .dragged3{
 	height: 150px;
 	width: 150px;
-	border: 5px solid black;
 	text-align: center;
 	background: url("../img/beyonce1.jpg");
 	background-size:cover;
 	margin:0;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    color: black;
+    color: #454545;
 	font-weight: bold;
 	cursor: move;
     transition: all 200ms linear;
     user-select: none;
 	margin-left: 50px;
 	margin-right: 50px;
+	padding: 50px 0px;
+
 	
 }
 
 .dragged4{
 	height: 150px;
 	width: 150px;
-	border: 5px solid black;
 	text-align: center;
 	background: url("../img/lawrence1.jpg");
 	background-size:cover;
@@ -764,25 +856,47 @@ float: inline-end;}
     user-select: none;
 	margin-left: 50px;
 	margin-right: 50px;
+	padding: 40px 0px;
+
 	
 }
 .dragged5{
 	height: 150px;
 	width: 150px;
-	border: 5px solid black;
+	justify-content: center;
 	text-align: center;
 	background: url("../img/gates1.jpg");
 	background-size:cover;
 	margin:0;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    color: black;
+    color: #454545;
 	font-weight: bold;
 	cursor: move;
     transition: all 200ms linear;
     user-select: none;
 	margin-left: 50px;
 	margin-right: 50px;
+	padding: 40px 0px;
+
+	
+}
+
+
+
+.argentdrag 
+{
+	font-family: Impact;
+	font-size: 15px;
+	color: white;
+	
+}
+
+.argentdrag1
+{
+	font-family: Impact;
+	font-size: 15px;
+	color: #454545;
 	
 }
 .draggarea
@@ -803,7 +917,7 @@ float: inline-end;}
 {
 	height: 150px;
 	width: 150px;
-	border: 5px solid black;
+	border: 2px dashed #454545;
 	
 	
 }
@@ -813,25 +927,127 @@ float: inline-end;}
 {
 	height: 150px;
 	width: 150px;
-	background-color: #bdd4f9;
+	background-color: #454545;
 	margin-left: 50px;
 	margin-right: 50px;
-	color: black;
+	color: white;
 	font-size: 15px;
 	font-style: "raleway-bold", Helvetica, Arial, sans-serif;
 	text-align: center;
 	font-weight: bold;
+	padding: 20px 5px;
 	
 	
 }
 
-
+.rep
+{ font-family: Impact;
+  font-size: 20px;
+  color: white;
+	
+}
 
 
 
 .drop_hover {
     box-shadow: 0 0 150px rgba(0, 0, 0, 0.8) inset;
 }
+
+/*mining*/
+
+.mining{
+	padding: 30px 0;
+	height: 800px;
+	background-color: #f7f8f9;
+}
+
+.mining .mean_title,
+.mining .sub_title{
+	text-align: center;
+	color: #454545;
+	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+}
+
+
+.mining .mean_title{
+	color: #454545;
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center
+}
+
+.mining .sub_title{
+	font-size: 15px;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+}
+
+
+.mining .miningetape1 .sub_title
+{ font-weight: bold;
+	
+}
+
+.mining .sub_title1{
+	font-size: 15px;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: rgb(255,192,0);
+	font-weight: bold;
+
+}
+.mining .miningetape1
+
+{ 
+ display: flex; 
+ flex-direction: row;
+ width: 100%;
+ height: 400px;
+ align-items: center;
+ padding: 0px 40px;
+ margin-top: 40px;
+ 
+}
+
+.mining .miningetape1 img
+{ height: 400px;
+  margin: auto;}	
+  
+
+
+.mining .miningetape1 .milieu
+{ height: 400px;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 80px 0;
+	
+}
+
+.mining .miningetape1 .milieu img
+{ width: 200px;}
+
+.mining .miningetape1 .droite
+{ height: 400px;
+  width: 300px;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0;
+
+
+  
+	
+}
+
+
 
 
 /*    Testimonials    */
@@ -1834,96 +2050,40 @@ content: "\2014 \2009";
 
 /* animations */ 
 
-@keyframes anim0 {
-   0%  {opacity:0;
-   }
-   
-   50%  {opacity:1;
-   
-   
-   }
-   100% {opacity:1;
-   
-   
-   }
-}
 
 
 @keyframes anim {
-   50%  { background-color: red;
+   50%  { background-color: #c63601;
    }
    
    }
-   100% { background-color: red;
-   
-   
-   }
-}
-
-@keyframes anim1 {
-   0%  {opacity:0;
-   transform: translateX(0px);
-   }
-   
-   50%  {opacity:0.5;
-		transform: translateX(0px);
-   
-   
-   }
-   100% {opacity:1;
-		 transform: translateX(-25px);
+   100% { background-color: #c63601;
    
    
    }
 }
 
+@keyframes aero {
+   50%  { background-color: #c63601;
+
+   }
+
+   100% {background-color: #c63601;
+
+   }
+}
 
 @keyframes anim2 {
-   0%  {opacity:0;
-   transform: translateX(0px);
-   }
-   
-   50%  {opacity:0.5;
-		transform: translateX(0px);
-   
-   
-   }
-   100% {opacity:1;
-		 transform: translateX(25px);
-   
-   
-   }
-}
-
-@keyframes anim3 {
-   0%  {opacity:0;
-   transform: translateX(0px);
-   }
-   
-   50%  {opacity:0.5;
-		transform: translateX(0px);
-   
-   
-   }
-   100% {opacity:1;
-		 transform: translateX(100px);
-   
-   
-   }
-}
-
-@keyframes anim5 {
-   0%  {opacity:0;
-   }
-   
-   50%  {opacity:0.5;
-   
-   
-   }
-   100% {opacity:1;
-   
-   
-   }
+	0% {opacity:1;
+		transform: translateY(0px);}
+		
+	20% {opacity:1;
+		transform: translateY(0px);}
+	
+	
+	100% {opacity:1;
+		transform: translateY(-800px);}
+	
 }
 
 @keyframes animchart {
@@ -1957,6 +2117,18 @@ content: "\2014 \2009";
   width: 175px;
   height: 175px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

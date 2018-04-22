@@ -335,8 +335,11 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-	text-align: center
+	text-align: center; 
+	background-color: #dec6c5;
 }
+
+
 
 .histoire .sub_title{
 	font-size: 15px;
@@ -372,8 +375,6 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .btn_holder{
 	text-align: center;
-
-    margin-top: 5%;
 }
 
 .histoire .btn_fancy{
@@ -471,7 +472,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	flex-direction: column;
 	width: 100%;
 	height: 900px;
-	background-color: #f7f8f9;
+	background-color: #f5f1f1b0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -495,11 +496,16 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .quote .mean_title{
 	color: #454545;
-	font-size: 23px;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center; 
+	background-color: #dec6c5;
 }
+
+
 
 .quote .row1 .texterow {
 	height: 350px;
@@ -734,10 +740,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 .casse .mean_title{
 	color: #454545;
-	font-size: 23px;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center; 
+	background-color: #dec6c5;
 }
 
 
@@ -748,6 +757,15 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	padding: 10px 0px;
 }
 
+.casse .mean_title{
+	color: #454545;
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center; 
+}
 
 .draggable {
 	height: 150px;
@@ -958,7 +976,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .mining{
 	padding: 30px 0;
 	height: 800px;
-	background-color: #f7f8f9;
+	background-color: #f5f1f1b0;
 }
 
 .mining .mean_title,
@@ -966,6 +984,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	text-align: center;
 	color: #454545;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+
 }
 
 
@@ -976,7 +995,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-	text-align: center
+	text-align: center; 
+	background-color: #dec6c5;
 }
 
 .mining .sub_title{
@@ -1063,7 +1083,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	text-align: center
 
 }
@@ -1205,11 +1225,15 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .cta .title{
 	color: #454545;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
-	font-size: 26px;
+	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 2px;
+	text-align: center; 
+	background-color: #efc5c3;
 }
+
+
 
 .cta .sub_title{
 	color: #454545;
@@ -1225,10 +1249,26 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 
+.cta .mean_title{
+	color: #454545;
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	text-align: center; 
+	background-color: #dec6c5;
+}
 
 
-
-
+.cta .partage{
+	color: #454545;
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center; 
+	margin-bottom: 10px;
+}
 
 
 
@@ -1239,6 +1279,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 footer{
 	padding: 80px 0;
 	background: #302e2e; /* #535353;*/
+	margin-top: 10px;
 }
 
 footer .copyrights{
@@ -1621,7 +1662,15 @@ footer a{
 
 
 
-
+/* partager */ 
+#share-buttons img {
+width: 60px;
+padding: 10px;
+border: 0;
+box-shadow: 0;
+display: inline;
+margin-bottom: 15px;
+}
 
 
 
@@ -2117,16 +2166,4 @@ content: "\2014 \2009";
   width: 175px;
   height: 175px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 

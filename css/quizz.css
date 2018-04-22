@@ -1,0 +1,19 @@
+
+
+input[type=button] {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 15px;
+  background: #d95563;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+input[type=button]:hover{
+  background: #2eb878;
+  text-decoration: none;
+}
+
