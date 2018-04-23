@@ -224,7 +224,8 @@
 	position: relative;
 	margin-right: 5px;
 	border-bottom: 1px dashed #ffffff;
-	padding-bottom: 3px;
+	padding-bottom: 0px;
+	animation: Test 1s infinite;
 }
 
 .hero .caption .btn_details .arrow{
@@ -241,7 +242,11 @@
 }
 
 
-
+@keyframes Test{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
 
 
 
@@ -279,7 +284,7 @@ header nav{
 	margin-top: 60px;
 }
 
-
+/*
 header .top-bar-section ul li a{
 	color: white;
     font-family: "Arial Black", Gadget, sans-serif	;
@@ -288,8 +293,18 @@ header .top-bar-section ul li a{
     text-transform: uppercase;
     margin-right: 32px;
     letter-spacing: 1.5px;
-}
+}*/
 
+header .top-bar-section ul li a{
+	color: white;
+	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	letter-spacing: .5px;
+margin-left: 10px;
+}
 
 header .top-bar-section ul li:last-child a{
 	margin-right: 100px;
@@ -318,14 +333,18 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 /*    histoire    */
 
 .histoire{
-	padding: 30px 0;
+	/*padding: 30px 0;*/
+	padding: 15px 30px 90px 30px; 
 }
 
 .histoire .mean_title,
 .histoire .sub_title{
-	text-align: center;
 	color: #454545;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
 
 
@@ -335,7 +354,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-align: center; 
 	background-color: #dec6c5;
 }
@@ -343,10 +362,14 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 .histoire .sub_title{
-	font-size: 15px;
+	color: #454545;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
+
 
 .histoire .histoire_list{
 	margin-top: 100px;	text-align: center;
@@ -471,8 +494,8 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .quote{
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	height: 980px;
+	/*width: 100%;*/
+	/*height: 980px;*/
 	background-color: #f5f1f1b0;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -480,18 +503,20 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	   background-size: cover; 
 	text-align: center;
 	align-items: center;
-	padding: 30px 60px 5px 60px;
+	/*padding: 140px 0;*/
+	padding: 15px 30px 90px 30px; 
+
 	}
-
-
-
 
 
 .quote .mean_title,
 .quote .sub_title{
+	color: #454545;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
 	text-align: center;
-	color: white;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+	align-items: center;
 }
 
 
@@ -501,7 +526,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-align: center; 
 	background-color: #dec6c5;
 }
@@ -511,7 +536,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .quote .row1 .texterow {
 	width: 1100px;
 	color: #454545;
-	font-size: 15px;
+	font-size: 17px;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	display: flex;
@@ -521,9 +546,11 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 .quote .row1 .sub_title{
 	color: #454545;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
 
 
@@ -552,11 +579,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	
 }
 
-#chart .chart1 .sub_title 
-{ font-size: 15px;
-  align-self: center;
-  
-
+#chart .chart1 .sub_title { 
+	color: #454545;
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
 
 .chart1
@@ -598,7 +627,6 @@ margin-top: 50px;}
 display: flex;
  flex-direction: column;
  height: 250px;
-	
 }
 
 
@@ -610,6 +638,7 @@ display: flex;
   font-weight: bold;
   padding: 15px 0;
 }
+
 
 	
 	
@@ -675,7 +704,7 @@ display: flex;
 	text-align: center;
 	align-items: center;
 	margin-top: 5px;
-	margin: 0 auto;
+	margin-bottom: 5px;
 	height: 100px;
 
 }
@@ -745,25 +774,14 @@ display: flex;
 /* casse */
 
 .casse {
-	width: 100%;
-	height: 850px;
+	/*width: 100%;
+	height: 850px;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
     align-items:center;
-	padding: 30px 30px;
-	
-	
-	
+    padding: 15px 30px 90px 30px; 
 }
-
-.casse .mean_title,
-.casse .sub_title{
-	text-align: center;
-	color: #454545;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-}
-
 
 .casse .mean_title{
 	color: #454545;
@@ -771,21 +789,23 @@ display: flex;
 	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-align: center; 
 	background-color: #dec6c5;
 }
 
 
 .casse .sub_title{
-	width: 1100px;
-	font-size: 15px;
+	color: #454545;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-weight: lighter;
-	padding: 10px 0px;
+	text-align: center;
+	align-items: center;
+	/*padding: 10px 0px;*/
 }
 
-.casse .mean_title{
+.casse .mean_title2{
 	color: #454545;
 	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
 	font-size: 17px;
@@ -1002,18 +1022,22 @@ display: flex;
 /*mining*/
 
 .mining{
-	padding: 30px 0;
-	height: 1600px;
+	/*padding: 30px 0;
+	height: 1600px;*/
 	background-color: #f5f1f1b0;
+	padding: 15px 30px 90px 30px; 
 }
 
 .mining .mean_title,
 .mining .sub_title{
-	text-align: center;
 	color: #454545;
-	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
+
 
 
 .mining .mean_title{
@@ -1022,15 +1046,18 @@ display: flex;
 	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-align: center; 
 	background-color: #dec6c5;
 }
 
 .mining .sub_title{
-	font-size: 15px;
+	color: #454545;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
 
 
@@ -1239,11 +1266,12 @@ color:black;
 }
 
 .mining .miningetape2 .etape22 .sub_title{
-	font-size: 15px;
-	font-family: "raleway-light", Helvetica, Arial, sans-serif;
-	font-weight: lighter;
 	color: #454545;
-
+	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
 
 /*    Testimonials    */
@@ -1393,9 +1421,10 @@ color:black;
 
 .cta{
 	background: #ffffff;
-	padding: 140px 0;
-	background: url('../img/cubes.png') repeat;
+	/*padding: 140px 0;
+	background: url('../img/cubes.png') repeat;*/
 	text-align: center;
+	padding: 15px 30px 90px 30px; 
 }
 
 .cta .title{
@@ -1414,9 +1443,12 @@ color:black;
 .cta .sub_title{
 	color: #454545;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-weight: lighter;
-	font-size: 18px;
+	text-align: center;
+	align-items: center;
 }
+
 
 .cta .btn_fancy{
 	margin-top: 60px;
@@ -1430,7 +1462,7 @@ color:black;
 	font-size: 23px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	text-align: center; 
 	background-color: #dec6c5;
 }
@@ -1998,17 +2030,22 @@ margin-bottom: 15px;
 
 
 .text_para{
-	font-size: 19px;
+	color: #454545;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-weight: lighter;
+	text-align: center;
+	align-items: center;
 }
 
 
 .text_para2{
-	font-size: 17px;
-	font-family: "raleway-light", Helvetica, Arial, sans-serif;
+	color: #454545;
+	font-family: "raleway-normal", Helvetica, Arial, sans-serif;
+	font-size: 16px;
 	font-weight: lighter;
-	font-style: italic;
+	text-align: center;
+	align-items: center;
 }
 
 

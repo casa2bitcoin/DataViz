@@ -7,13 +7,13 @@ input[type=button] {
   font-family: Courier New;
   color: #ffffff;
   font-size: 15px;
-  background: #d95563;
+  background: #df98a0;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 input[type=button]:hover{
-  background: #2eb878;
+  background: #12b36885;
   text-decoration: none;
 }
 
