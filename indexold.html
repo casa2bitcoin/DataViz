@@ -5,10 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <title>Bitcoin: le braquage du siècle</title> -->
     <title>Casa2bitcoin</title>
     <link rel="icon" type="image/png" href="img/bitcoin_logo.png" />
-
 
     <script src= "https://cdn.zingchart.com/zingchart.min.js"></script>
 	<script>
@@ -24,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/mainv3.css" />
+    <link rel="stylesheet" href="css/mainv7.css" />
     <link rel="stylesheet" href="css/csslider.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -56,6 +54,8 @@
 	<!-- End Google Analytics -->
 
 
+      
+
   </head>
 
   <body>
@@ -69,13 +69,14 @@
             <!--    Start Navigation Menu    -->
             <section class="top-bar-section" id="mean_nav">
               <ul class="right">
-                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#histoire">Retour aux origines</a></li>
 				<li><a href="#quote">Le cerveau de l'opération</a></li>
-				<li><a href="#mining">Le mining</a></li>
+				<li><a href="#mining">Le mode opératoire</a></li>
                 <li><a href="#envole">Le casse</a></li>
+                <li><a href="#itinéraire">La cavale</a></li>
                 <li><a href="#funny">L'enquête</a></li>
                 <li><a href="#quizz">La mise au vert</a></li>
-                <li><a href="#footer">Contactez nous :) </a></li>
+                <!--  <li><a href="#footer">Contactez nous :) </a></li>  -->
               </ul>
             </section>
             <!--    End Navigation Menu    -->
@@ -85,11 +86,15 @@
 
       <!--    Start Hero Caption    -->
       <section class="caption">
+
+<div class = "boxx"  >  Prix journalier : <div id="gobtc-widget-price" data-cur="eur"></div></div> 
+<script type="text/javascript" src="https://widgets.gobitcoin.io/price.js"></script> 
+
         <div class="row">
           <h1 class="mean_cap">La Casa de Bitcoin</hA>
           <div id="sub_cap"></div>
 
-          <a href="#histoire" class="btn_details"><span>Êtes vous prêts ?</span> <img src="img/btn_arrow.png" alt="" src="" class="arrow"></a>
+          <a href="#histoire" class="btn_details"><span>Vamos ?</span> <img src="img/btn_arrow.png" alt="" src="" class="arrow"></a>
         </div>
       </section>
       <!--    End Hero Caption    -->
@@ -98,16 +103,15 @@
     <!--  End Hero Section  -->
 
 
-
     <!--  Start Services Section  -->
     <section class="histoire" id="histoire">
 
       <!--    Start Services Titles    -->
       <div class="row">
-        <h1 class="mean_title">Le Bitcoin dans l'histoire</h1>
+        <h1 class="mean_title">Retour aux origines</h1>
         <h2 class="sub_title">Un jour de janvier de l'année 2009, est sorti de terre ou plutôt d'un ordinateur, une monnaie mystérieuse. Son objectif: effectuer un braquage silencieux du système. Contrairement au reste du monde, le Bitcoin est indépendant et rien ni personne ne peut prendre son contrôle. Nous vous proposons de découvrir dans un premier temps sa place dans l'histoire et pourquoi il est apparu.</h2>
-
       </div>
+
       <!--    End Services Titles    -->
 	  <div class="frise">
 		<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1y51xeK585Xwv17Pr8ePdE3BPno0xD-3pHKYa9GnksE0&font=Default&lang=en&initial_zoom=2&height=500' width='70%' height='500' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
@@ -141,15 +145,6 @@
       </div>
          End Services List    -->
 
-      <!--    Start Button    -->
-      <div class="btn_holder">
-        <a href="#quote" class="btn_fancy">
-          <div class="solid_layer"></div>
-          <div class="border_layer"></div>
-          <div class="text_layer">Mais qui est le cerveau de cette opération?</div>
-        </a>
-      </div>
-      <!--    End Button    -->
 
     </section>
     <!--  End Services Section  -->
@@ -160,26 +155,27 @@
     <section class="quote" id="quote">
     	 <div class="row">
          <h1 class="mean_title">Le cerveau de l'opération: Satoshi Nakamoto</h1>
-     	</div>
+		 </div>
 		<div class="row1">
 			<div class="texterow">
-				Ils ont tous enquêté pour découvrir l'identité de Satoshi Nakamoto et identifier l'auteur du casse du siècle. En tapant "Who is Satoshi Nakamoto" sur Google, les 5 premiers articles citent un certain nombre de suspects. Mais certains semblent plus évoqués que d'autres. Et si on en croit les lois de probabilité, il y a de forte de chances pour qu'on ait à faire à un informaticien américain...
+				Des grands noms tels que le New York Times, Forbes et même la NSA ont mené leur enquête pour identifier Satoshi Nakamoto, l'auteur du casse du siècle. 
+				Nous avons recensé les 50 premiers articles évoquant l'enquête sur l'indentité de Satoshi Nakamoto. Les suspects cités font partie d'un groupe d'une quinzaine de personnes.
 			</div>
-			<div class='flotte1'>
-				<img src="img/forbes.png" alt="forbes" />
-				<img src="img/NYT.png" alt="New York Times" />
-				<img src='img/newsweek.png'/>
-				<img src='img/NSA.png'/>
-				<img src='img/wired.png'/>
-			</div>
-
 
 			<div id="chart">
-				<div id="myChart">
+				<div class="chart1">
+					<div id="myChart">
+					</div>
+					<h2 class="sub_title">Voici les noms des suspects les plus cités. Le principal suspect est Nick Szabo et il est apparu 35 fois dans les 50 articles</h2>
 				</div>
-				<h2 class="sub_title">Voici les noms des suspects les plus cités. Le principal suspect Nick Szabo est un informaticien américain.
+				
+				<div class="chart1">
+					<div id="myChart1">
+					</div>
+					<h2 class="sub_title">Ce nuage de mots présente les nationalités et les professions des suspects, le suspect pourrait donc être un informaticien américain</h2>
+				</div>
 			</div>
-		</div>
+		  </div>
 
        <!--  <div class="images">
 
@@ -205,11 +201,11 @@
 
 
 		<div class="btn_holder">
-        <a href="#myChart" class="btn_fancy" onclick="AfficherMasquer()">
-          <div class="solid_layer"></div>
-          <div class="border_layer"></div>
-          <div class="text_layer">Mais la réponse se trouve dans les lettres...<br> </div>
-        </a>
+			<a href="#myChart" class="btn_fancy" onclick="AfficherMasquer()">
+			  <div class="solid_layer"></div>
+			  <div class="border_layer"></div>
+			  <div class="text_layer">Mais qu'y a-t-il derrière ce pseudonyme?</div>
+			</a>
         </div>
 
 
@@ -274,7 +270,7 @@
 		<div id="reponse" style="display:none">
 			<h2 class="sub_title"><span id="let1">Sa</span><span id="let2">toshi</span> <span id="let3">Naka</span><span id="let4">moto</span></h2>
 			<h3 class="marques"><span id="brand1">Samsung</span><span id="brand2">Toshiba</span> <span id="brand3">Nakamichi</span> <span id="brand4">Motorola</span></h3>
-			<div class="conclusion"><p>Il s'agirait en fait d'une conspiration et tout ceci serait créé de toutes pièces par ces 4 géants japonais de l'industrie des nouvelles technologies</p></div>
+			<div class="conclusion"><p>Il s'agirait en fait d'une conspiration et tout ceci serait créé de toutes pièces par ces 4 géants japonais de l'industrie des nouvelles technologies.</p></div>
 		</div>
 		<div id="imageup" style="display:none">
 			<img src="img/anonym.png" alt="anonymous" />
@@ -286,11 +282,11 @@
 		</section>
 
 
-
 		<section class='casse' id='casse' >
+		<div class="row">
 		  <h1 class="mean_title2">Le casse du siècle, vraiment?</h1>
-		  <h1 class="sub_title">Pour réaliser le casse du siècle il faut que le gain soit à la hauteur. Nul ne sait si Satoshi l'a fait pour l'argent, par simple plaisir ou pour créer quelque chose de nouveau. Mais il est certain qu'il a dû récupéré quelques dollars dans cette histoire. Seriez vous capable de nous dire où il se situe parmi les plus riches sur Terre? L'objectif est de placer Satoshi à la bonne place dans la liste ci-dessous. Un message s'affichera vous signalant votre erreur ou votre réussite... Si vous vous être trompé, n'hésitez pas à déplacer à nouveau Satoshi!</h1>
-
+		  <h1 class="sub_title">Pour réaliser le casse du siècle il faut que le gain soit à la hauteur. Nul ne sait si Satoshi l'a fait pour l'argent, par simple plaisir ou pour créer quelque chose de nouveau. Mais il est certain qu'il a dû récupéré quelques dollars dans cette histoire. Seriez vous capable de nous dire où il se situe parmi les plus riches sur Terre? L'objectif est de placer Satoshi à la bonne place dans la liste ci-dessous. Un message s'affichera vous signalant votre erreur ou votre réussite... Si vous vous être trompé, n'hésitez pas à déplacer à nouveau Satoshi! </h1> <br> 
+		</div>
 
 		  <div class="draggaera">
 
@@ -311,12 +307,12 @@
 			<div class="dragged5">Bill Gates</br> <span class="argentdrag1">fortune estimée à 90 milliards $ en 2018</span></div>
 			<div class="draggareapossible"></div>
 			<div class="reponsespossibles">
-					<div id="rep1" style="display:none"><p><span class="rep">FAUX</span> </br>les traders? des petits joueurs...</p></div>
-					<div id="rep2" style="display:none"><p><span class="rep">FAUX</span> </br>je préfère me cacher derrière un masque</p></div>
-					<div id="rep3" style="display:none"><p><span class="rep">FAUX</span> </br>un footballeur, plus d'argent mais moins belle coiffure</p></div>
-					<div id="rep4" style="display:none"><p><span class="rep">FAUX</span> </br>je n'avais pas assez confiance en mes talents</p></div>
-					<div id="rep5" style="display:none"><p><span class="rep">BIEN JOUE</span> </br>Et oui, 20 Milliards $$$$</p></div>
-					<div id="rep6" style="display:none"><p><span class="rep">FAUX</span> </br>pour bientôt j'espère</p></div>
+					<div id="rep1" style="display:none"><p><span class="rep">FAUX</span> </br>Les traders ? Des petits joueurs...</p></div>
+					<div id="rep2" style="display:none"><p><span class="rep">FAUX</span> </br>Je préfère me cacher derrière un masque.</p></div>
+					<div id="rep3" style="display:none"><p><span class="rep">FAUX</span> </br>Un footballeur, plus d'argent mais moins belle coiffure.</p></div>
+					<div id="rep4" style="display:none"><p><span class="rep">FAUX</span> </br>Je n'avais pas assez confiance en mes talents.</p></div>
+					<div id="rep5" style="display:none"><p><span class="rep">BIEN JOUE</span> </br>Et oui, 20 Milliards $$$$ !</p></div>
+					<div id="rep6" style="display:none"><p><span class="rep">FAUX</span> </br>Pour bientôt, j'espère.</p></div>
 			</div>
 
 
@@ -372,7 +368,8 @@
 							draggedElement.parentNode.removeChild(draggedElement);
 
 							coordx = clonedElement.getBoundingClientRect();
-							coordref = document.getElementsByClassName('reponsespossibles')[0].getBoundingClientRect()
+							coordref = document.getElementsByClassName('reponsespossibles')[0].getBoundingClientRect();
+							elementref =document.getElementsByClassName('reponsespossibles')[0];
 
 							if ((coordx.left-coordref.left)  < -700 && (coordx.top-coordref.top) < -50){
 							document.getElementById('rep1').style.display='flex';
@@ -381,7 +378,7 @@
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='none';
 							document.getElementById('rep6').style.display='none';
-							elementref.style.backgroundColor= 'red';
+							elementref.style.backgroundColor= '#df98a0';
 
 
 
@@ -393,7 +390,7 @@
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='none';
 							document.getElementById('rep6').style.display='none';
-							elementref.style.backgroundColor= 'red';
+							elementref.style.backgroundColor= '#df98a0';
 
 
 							}
@@ -404,7 +401,7 @@
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='none';
 							document.getElementById('rep6').style.display='none';
-							elementref.style.backgroundColor= 'red';
+							elementref.style.backgroundColor= '#df98a0';
 
 
 
@@ -417,7 +414,7 @@
 							document.getElementById('rep4').style.display='flex';
 							document.getElementById('rep5').style.display='none';
 							document.getElementById('rep6').style.display='none';
-							elementref.style.backgroundColor= 'red';
+							elementref.style.backgroundColor= '#df98a0';
 
 
 							}
@@ -428,7 +425,7 @@
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='flex';
 							document.getElementById('rep6').style.display='none';
-							elementref.style.backgroundColor= '#0be29b';
+							elementref.style.backgroundColor= '#12b36885';
 
 							}
 							else if ((coordx.left-coordref.left)  > -200 && (coordx.top-coordref.top) > -40){
@@ -438,7 +435,7 @@
 							document.getElementById('rep4').style.display='none';
 							document.getElementById('rep5').style.display='none';
 							document.getElementById('rep6').style.display='flex';
-							elementref.style.backgroundColor= 'red';
+							elementref.style.backgroundColor= '#df98a0';
 
 							}
 
@@ -477,7 +474,7 @@
 		<section class="mining" id="mining">
 
 			<div class="row">
-				<h1 class="mean_title">Qu'est ce que le mining?</h1>
+				<h1 class="mean_title">Le mode opératoire: le mining</h1>
 				<h2 class="sub_title">Imaginez que vous êtes propriétaire d'une mine de charbon et que vous concluez une vente d'un 1kg de charbon qui n'a pas encore été extrait. Vous allez alors demander aux mineurs d'extraire ce kg de charbon contre une rémunération. Le principe pour le bitcoin est le même. Si vous voulez effectuer une transaction d'un bitcoin, il faut que les mineurs trouvent la solution d'une équation, cette solution servant de clé pour valider votre transaction. En contre partie ils sont rémunérés par un fraction de bitcoin. </h2>
 
 			</div>
@@ -515,28 +512,28 @@
 
 			<div class="miningetape2" style="display:none">
 				<div class="etape21">
-				<div class="gauche">
-					<h2 class="sub_title">Alors que le charbon extrait est ajouté au stock...</h2>
-					<img src="img/test4vt.png"/>
-					<h2 class="sub_title1">Le code binaire trouvé par le mineur est ajouté à la blockchain qui comporte les codes de toutes les transactions</h2>
-				</div>
-				  <div class="milieu">
-					<img src="img/long-arrow-right.png"/>
-				  </div>
-				  <div class="droite1">
+					<div class="gauche">
+						<h2 class="sub_title">Alors que le charbon extrait est ajouté au stock...</h2>
+						<img src="img/test4vt.png"/>
+						<h2 class="sub_title1">Le code binaire trouvé par le mineur est ajouté à la blockchain qui comporte les codes de toutes les transactions</h2>
+					</div>
+					<div class="milieu">
+						<img src="img/long-arrow-right.png"/>
+					</div>
+					<div class="droite1">
 						<h2 class="sub_title">Transaction effectuée</h2>
 						<img src="img/test5vt.png"/>
 						<h2 class="sub_title1">Transaction effectuée</h2>
-				  </div>
-				  <div class="droite2">
+					</div>
+					<div class="droite2">
 						<h2 class="sub_title">Salaire versé au mineur</h2>
 						<img src="img/test6vt.png"/>
 						<h2 class="sub_title1">Un bitcoin est créé et donné au mineur</h2>
-				  </div>
-				  </div>
+					</div>
+				</div>
 				<div class="etape22">
-				 <h1 class="mean_title">Matériels, niveau de vie, ça donne quoi?</h1>
-				 <div class="salaire">
+					<h1 class="titlepro">Matériels, niveau de vie, ça donne quoi?</h1>
+					<div class="salaire">
 						<img src="img/bitcoin1.png" />
 						<ul id="ul1">
 							<li>Un ordinateur de gamer</li>
@@ -552,24 +549,34 @@
 							<li>+10h de travail par jour</li>
 						</ul>
 						<img src="img/charbno.png" />
-
-				 </div>
+					</div>
 				</div>
+			</div>
 
 
 		</section>
     <!--  End Quote Section  -->
 
 
+    <!--  Start Envolée du cours  -->
+    <section class="cta" id="envole">
+    <div class="row">
+        <h1 class="mean_title">test</h1>
+	 </div>
+
+<a href="http://bitcoinity.org/markets/bitfinex/USD" target="_blank">
+  <img src="https://bitcoinity.org/markets/image?span=6m&size=small&currency=USD&exchange=bitfinex" alt="bitcoin price chart"/>
+</a>
+
+</section>
 
     <!--  Start Envolée du cours  -->
     <section class="cta" id="envole">
     <div class="row">
         <h1 class="mean_title">Le casse du siècle</h1>
+		<h2 class="sub_title">Et si on détient du bitcoin, quel est notre part du butin final? Vaut-il mieux faire partie du gang bitcoin ou du gang google? La valeur d'une action bitcoin  a été multipliée par  environ 35 000 entre 2011 et 2018 contre 3 pour l'action google. On voit sur le graphique ci-dessous les variations hebdomaires du cours. Le braquage a eu lieu en 2014, avec l'envolée de la valeur du bitcoin. Conclusion : vous pouvez réclamer une grosse part du butin si vous avez pris soin de rejoindre l'équipe des braqueurs avant 2014...</h2>
     </div>
-
-
-      <div class="text_para"> Et si on détient du bitcoin, quel est notre part du butin final? Vaut-il mieux faire partie du gang bitcoin ou du gang google? La valeur d'une action bitcoin  a été multipliée par  environ 35 000 entre 2011 et 2018 contre 3 pour l'action google. On voit sur le graphique ci-dessous les variations hebdomaires du cours. Le braquage a eu lieu en 2014, avec l'envolée de la valeur du bitcoin. Conclusion : vous pouvez réclamer une grosse part du butin si vous avez pris soin de rejoindre l'équipe des braqueurs avant 2014...   <br> </div>
+ 
       <div id="myDiv" class="row"></div>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -676,8 +683,7 @@ Plotly.newPlot('myDiv', data, layout);
         <!--    Start CTA Titles    -->
         <h1 class="mean_title">La cavale</h1>
         <!-- <h2 class="sub_title"> Paris.. ville aux mille visages…  capitale de la culture, de la  gastronomie, de la mode. Capitale plurielle, elle regroupe aussi de plus en plus de lieux dédiés aux cryptomonnais et en particulier, au <a>Bitcoin</a>.</h2>  -->
-        <div class="text_para"> Paris... Ville aux mille visages, capitale de la culture, de la gastronomie, de la mode... <br> </div>
-        <div class="text_para2"> <br> Capitale plurielle, Paris regroupe aussi de plus en plus de lieux dédiés aux crypto-monnaies et, en particulier, au <a>Bitcoin</a>. On compte aujourd'hui une quarantaine de commerces acceptant le bitcoin, la grande majorité se trouve au passage du Grand-Cerf.</div>
+        <div class="text_para"> Mais où les braqueurs sont-ils cachés ? Comment blanchissent-ils leur pactole ? <br> <br> Paris est la capitale de la culture, de la gastronomie, de la mode mais aussi du braquage... La ville regroupe en effet plusieurs lieux dédiés aux crypto-monnaies et, en particulier, au <a>Bitcoin</a>. On compte aujourd'hui une quarantaine de commerces acceptant le bitcoin, la grande majorité se trouve au passage du Grand-Cerf. <br> </div>
         </div>
 
         <div id='map'></div>
@@ -691,6 +697,8 @@ Plotly.newPlot('myDiv', data, layout);
     <section class="cta" id="funny">
       <div class="row">
         <h1 class="mean_title">L'enquête</h1>
+        <div class="text_para">  Au cours de notre enquête, nous avons rassemblé différents indices, dépositions et pièces à conviction. <br> Nous vous proposons quelques extraits. <br> </div>
+        </div>
       </div>
 <div id="slider1" class="csslider infinity inside">
         <input type="radio" name="slides" id="slides_1" checked />
@@ -707,7 +715,7 @@ Plotly.newPlot('myDiv', data, layout);
 
               <div class = "titre_fact">Get Rich Or Die Tryin'</div>
               <img class="wrapdroite" src="img/fifty.jpg">
-              <div class = "text_funny"> Le rappeur 50 Cent vient de découvrir par hasard qu’il était millionnaire en bitcoin. <br> </div>
+              <div class = "text_funny"> Le rappeur 50 Cent vient de découvrir par hasard qu’il était millionnaire en bitcoin. En effet, en 2014 il avait donné la possibilité à ses fans d'acheter son album "Animal Ambition" en bitcoins. <br> </div>
                 <blockquote>
                 <br> Quelqu'un veut un peu de bitcoin? Lol. Je sais que ça vous rend malade mais excusez-moi d'être riche.
                 <cite>50 Cent, janvier 2018</cite>
@@ -737,7 +745,7 @@ Plotly.newPlot('myDiv', data, layout);
             </li>
 
             <li>
-              <div class = "titre_fact">Irréversible</div>
+              <div class = "titre_fact">Une sentence irrevocable</div>
               <img class="wrapdroite" src="img/bitcoin-ballon.jpg">
               <div class = "text_funny"> Les remboursements sont impossibles sur les transactions en bitcoins. En 2016, un utilisateur a accidentellement envoyé 137 000$ au lieu de 5$. </div>
             </li>
@@ -763,7 +771,7 @@ Plotly.newPlot('myDiv', data, layout);
 
             <li>
               <div class = "titre_fact">La face cachée du bitcoin</div>
-              <img class="wrapdroite" src="img/evil.jpg" />
+              <img class="wrapdroite" src="img/evil2.png" />
               <div class = "text_funny"> Avec son caractère anonyme et numérique, le bitcoin est le moyen de paiement privilégié sur le dark net. On estime aujourd'hui que près de la moitié des transactions en bitcoins seraient consacrées à alimenter le marché noir (drogues, armes, virus informatiques, etc.).  </div>
             </li>
 
@@ -826,7 +834,7 @@ Plotly.newPlot('myDiv', data, layout);
         <script  src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
               <script type="text/javascript" src="js/quizz.js"></script>
               <link rel="stylesheet" href="css/quizz.css" />
-              <div id="question" class="text_para"></div>
+              <div id="question" class="text_para2"></div> <br>
 
 
 
@@ -857,7 +865,7 @@ Plotly.newPlot('myDiv', data, layout);
 
     <section class="cta" id="share">
       <div class="row">
-        <h1 class="partage"> Ça vous a plu ? N'hesitez pas à partagez cette page avec vos amis, vos parents, vos grands-parents, vos collègues, vos voisins, Joseph Stiglitz, Jul ou Catherine Deneuve... ca nous fera une bonne note ! </h1>
+        <h1 class="partage"> Ça vous a plu ? N'hesitez pas à partagez cette page avec vos amis, vos parents, vos grands-parents, vos collègues, vos voisins, Joseph Stiglitz, Jul ou Catherine Deneuve ! </h1>
       </div>
 
 <div id="share-buttons">
@@ -885,8 +893,10 @@ Plotly.newPlot('myDiv', data, layout);
     <a href="https://twitter.com/share?url=https://leabre.github.io/bitcoin_ENSAE/&amp;text=La%20Casa%20de%20bitcoin&amp;hashtags=LaCasa2bitcoin"
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
+    <br>
 </div>
 
+<br>
 
 
     <!--  Start Footer Section  -->
