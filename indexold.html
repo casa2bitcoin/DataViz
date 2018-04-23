@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <link rel="stylesheet" href="css/mainv7.css" />
+    <link rel="stylesheet" href="css/mainv3.css" />
     <link rel="stylesheet" href="css/csslider.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -160,27 +160,26 @@
     <section class="quote" id="quote">
     	 <div class="row">
          <h1 class="mean_title">Le cerveau de l'opération: Satoshi Nakamoto</h1>
-		 </div>
+     	</div>
 		<div class="row1">
 			<div class="texterow">
-				Des grands noms tels que le New York Times, Forbes et même la NSA ont mené leur enquête pour identifier Satoshi Nakamoto, l'auteur du casse du siècle. 
-				Nous avons recensé les 50 premiers articles évoquant l'enquête sur l'indentité de Satoshi Nakamoto. Les suspects cités font partie d'un groupe d'une quinzaine de personnes.
+				Ils ont tous enquêté pour découvrir l'identité de Satoshi Nakamoto et identifier l'auteur du casse du siècle. En tapant "Who is Satoshi Nakamoto" sur Google, les 5 premiers articles citent un certain nombre de suspects. Mais certains semblent plus évoqués que d'autres. Et si on en croit les lois de probabilité, il y a de forte de chances pour qu'on ait à faire à un informaticien américain...
+			</div>
+			<div class='flotte1'>
+				<img src="img/forbes.png" alt="forbes" />
+				<img src="img/NYT.png" alt="New York Times" />
+				<img src='img/newsweek.png'/>
+				<img src='img/NSA.png'/>
+				<img src='img/wired.png'/>
 			</div>
 
+
 			<div id="chart">
-				<div class="chart1">
-					<div id="myChart">
-					</div>
-					<h2 class="sub_title">Voici les noms des suspects les plus cités. Le principal suspect est Nick Szabo et il est apparu 35 fois dans les 50 articles</h2>
+				<div id="myChart">
 				</div>
-				
-				<div class="chart1">
-					<div id="myChart1">
-					</div>
-					<h2 class="sub_title">Ce nuage de mots présente les nationalités et les professions des suspects, le suspect pourrait donc être un informaticien américain</h2>
-				</div>
+				<h2 class="sub_title">Voici les noms des suspects les plus cités. Le principal suspect Nick Szabo est un informaticien américain.
 			</div>
-		  </div>
+		</div>
 
        <!--  <div class="images">
 
@@ -206,11 +205,11 @@
 
 
 		<div class="btn_holder">
-			<a href="#myChart" class="btn_fancy" onclick="AfficherMasquer()">
-			  <div class="solid_layer"></div>
-			  <div class="border_layer"></div>
-			  <div class="text_layer">Mais qu'y a-t-il derrière ce pseudonyme?</div>
-			</a>
+        <a href="#myChart" class="btn_fancy" onclick="AfficherMasquer()">
+          <div class="solid_layer"></div>
+          <div class="border_layer"></div>
+          <div class="text_layer">Mais la réponse se trouve dans les lettres...<br> </div>
+        </a>
         </div>
 
 
@@ -373,8 +372,7 @@
 							draggedElement.parentNode.removeChild(draggedElement);
 
 							coordx = clonedElement.getBoundingClientRect();
-							coordref = document.getElementsByClassName('reponsespossibles')[0].getBoundingClientRect();
-							elementref =document.getElementsByClassName('reponsespossibles')[0];
+							coordref = document.getElementsByClassName('reponsespossibles')[0].getBoundingClientRect()
 
 							if ((coordx.left-coordref.left)  < -700 && (coordx.top-coordref.top) < -50){
 							document.getElementById('rep1').style.display='flex';
@@ -517,28 +515,28 @@
 
 			<div class="miningetape2" style="display:none">
 				<div class="etape21">
-					<div class="gauche">
-						<h2 class="sub_title">Alors que le charbon extrait est ajouté au stock...</h2>
-						<img src="img/test4vt.png"/>
-						<h2 class="sub_title1">Le code binaire trouvé par le mineur est ajouté à la blockchain qui comporte les codes de toutes les transactions</h2>
-					</div>
-					<div class="milieu">
-						<img src="img/long-arrow-right.png"/>
-					</div>
-					<div class="droite1">
+				<div class="gauche">
+					<h2 class="sub_title">Alors que le charbon extrait est ajouté au stock...</h2>
+					<img src="img/test4vt.png"/>
+					<h2 class="sub_title1">Le code binaire trouvé par le mineur est ajouté à la blockchain qui comporte les codes de toutes les transactions</h2>
+				</div>
+				  <div class="milieu">
+					<img src="img/long-arrow-right.png"/>
+				  </div>
+				  <div class="droite1">
 						<h2 class="sub_title">Transaction effectuée</h2>
 						<img src="img/test5vt.png"/>
 						<h2 class="sub_title1">Transaction effectuée</h2>
-					</div>
-					<div class="droite2">
+				  </div>
+				  <div class="droite2">
 						<h2 class="sub_title">Salaire versé au mineur</h2>
 						<img src="img/test6vt.png"/>
 						<h2 class="sub_title1">Un bitcoin est créé et donné au mineur</h2>
-					</div>
-				</div>
+				  </div>
+				  </div>
 				<div class="etape22">
-					<h1 class="titlepro">Matériels, niveau de vie, ça donne quoi?</h1>
-					<div class="salaire">
+				 <h1 class="mean_title">Matériels, niveau de vie, ça donne quoi?</h1>
+				 <div class="salaire">
 						<img src="img/bitcoin1.png" />
 						<ul id="ul1">
 							<li>Un ordinateur de gamer</li>
@@ -554,9 +552,9 @@
 							<li>+10h de travail par jour</li>
 						</ul>
 						<img src="img/charbno.png" />
-					</div>
+
+				 </div>
 				</div>
-			</div>
 
 
 		</section>
@@ -568,9 +566,10 @@
     <section class="cta" id="envole">
     <div class="row">
         <h1 class="mean_title">Le casse du siècle</h1>
-		<h2 class="sub_title">Et si on détient du bitcoin, quel est notre part du butin final? Vaut-il mieux faire partie du gang bitcoin ou du gang google? La valeur d'une action bitcoin  a été multipliée par  environ 35 000 entre 2011 et 2018 contre 3 pour l'action google. On voit sur le graphique ci-dessous les variations hebdomaires du cours. Le braquage a eu lieu en 2014, avec l'envolée de la valeur du bitcoin. Conclusion : vous pouvez réclamer une grosse part du butin si vous avez pris soin de rejoindre l'équipe des braqueurs avant 2014...</h2>
     </div>
- 
+
+
+      <div class="text_para"> Et si on détient du bitcoin, quel est notre part du butin final? Vaut-il mieux faire partie du gang bitcoin ou du gang google? La valeur d'une action bitcoin  a été multipliée par  environ 35 000 entre 2011 et 2018 contre 3 pour l'action google. On voit sur le graphique ci-dessous les variations hebdomaires du cours. Le braquage a eu lieu en 2014, avec l'envolée de la valeur du bitcoin. Conclusion : vous pouvez réclamer une grosse part du butin si vous avez pris soin de rejoindre l'équipe des braqueurs avant 2014...   <br> </div>
       <div id="myDiv" class="row"></div>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
