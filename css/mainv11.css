@@ -644,33 +644,33 @@ display: flex;
 	
 
 #reponse .sub_title #let1
-{ animation: anim 2s;
+{ animation: anim 1.5s;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 
 }
 
 
 #reponse .sub_title #let2
-{ animation: anim 2s;
+{ animation: anim 1.5s;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 2.5s;
 
 }
 
 #reponse .sub_title #let3
-{ animation: anim 2s;
+{ animation: anim 1.5s;
   animation-fill-mode: forwards;
-  animation-delay: 6s;
+  animation-delay: 4s;
 
 }
 
 
 
 #reponse .sub_title #let4
-{ animation: anim 2s;
+{ animation: anim 1.5s;
   animation-fill-mode: forwards;
-  animation-delay: 8s;
+  animation-delay: 5.5s;
 
 }
 
@@ -746,7 +746,7 @@ display: flex;
 {
  animation: aero 2s;
  animation-fill-mode: forwards;
- animation-delay: 10s;
+ animation-delay: 6s;
 
 }
 
@@ -850,7 +850,7 @@ display: flex;
 	height: 120px;
 	width: 120px;
 	text-align: center;
-	background: url("../img/trader1.jpg");
+	background: url("../img/mathieu.jpg");
 	background-size:cover;
 	margin:0;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
@@ -862,7 +862,7 @@ display: flex;
     user-select: none;
 	margin-left: 25px;
 	margin-right: 25px;
-    padding: 28px 0px;
+    padding: 24px 0px;
 	
 }
 
